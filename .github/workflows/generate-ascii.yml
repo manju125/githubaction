@@ -1,9 +1,6 @@
 name: Generate Ascii Artwork
 
-on:
-    push
-
-
+on: push
 jobs:
     ascii_job:
        runs-on: ubuntu-latest
