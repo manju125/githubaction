@@ -1,7 +1,7 @@
 name: my First Workflow
 on: push
 jobs:
-    first_jub:
+    first_job:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout Repo
@@ -13,7 +13,7 @@ jobs:
                 ls -ltra
                 cat README.md
 
-            - name: Gnerate ASCII Artwork
+            - name: Generate ASCII Artwork
               run: cowsay -f dragon "Run for cover, I am a DRAGON ....RAWR" >> dragon.txt
 
             # - name: List files
